@@ -16,7 +16,8 @@
   --ifm-code-font-size: 95%;
   --ifm-heading-margin-bottom: 0px;
   --ifm-paragraph-margin-bottom: 0px;
-  --ifm-font-family-base: 'Source Code Pro', monospace;
+ /* --ifm-font-family-base: 'Source Code Pro', monospace;*/
+  --ifm-font-family-base: 'Lato';
   --ifm-footer-background-color: #0000b4;
   --ifm-footer-color: #fff;
   --ifm-heading-color: #414141;
@@ -27,7 +28,8 @@
 }
 
 body{
-font-family: 'Source Code Pro', monospace;
+/*font-family: 'Source Code Pro', monospace;*/
+	font-family: 'Lato';
 }
 .footer{
 background:linear-gradient(#000050, #0000b4)!important;
@@ -47,7 +49,7 @@ h2{
 font-size: 1.5rem!important;
 }
 .highlightPanel h3{
-font-size: 21px;
+font-size: 23px;
 }
 .highlightPanel p{
 font-size: 20px;
@@ -106,7 +108,7 @@ background-color: var(--ifm-menu-color-background-active);
 }
 /** Front page **/
 
-.highlightPanel h3,
+.highlightPanel:hover h3,
 .highlightPanel:active p,
 .highlightPanel:hover p
 {

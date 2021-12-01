@@ -9,8 +9,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const FeatureList = [
 {
+    title: 'Getting started',
+    Svg: <img class="svg_icon" src={'/img/front_icons/hopr-getting-started.svg'}/>,
+    description: (
+      <>
+        Latest releases, smart contracts, etc.
+      </>
+    ),
+        docName: ('node/start-here'),
+  },
+{
     title: 'Run a hoprd node',
-    Svg: <img class="svg_icon" src={'/img/front_icons/ship.svg'}/>,
+    Svg: <img class="svg_icon" src={'/img/front_icons/hopr-node.svg'}/>,
     description: (
       <>
         Earn HOPR tokens by relaying data.
@@ -19,18 +29,38 @@ const FeatureList = [
 	docName: ('node/start-here'),
   },
 {
-    title: 'Cover Traffic',
-    Svg: <img class="svg_icon" src={'/img/front_icons/ship.svg'}/>,
+    title: 'HOPR core concepts',
+    Svg: <img class="svg_icon" src={'/img/front_icons/hopr-core-concepts.svg'}/>,
     description: (
       <>
-        Whats is a Cover Traffic? And why it is important.
+        Broader educational material for understanding HOPR
       </>
     ),
 	docName: ('#'),
   },
-	{
+{       
+    title: 'Staking',
+    Svg: <img class="svg_icon" src={'/img/front_icons/hopr-staking.svg'}/>,
+    description: (
+      <>
+        How to earn money with HOPR using a node.
+      </>
+    ),
+        docName: ('#'),
+  },
+{
+    title: 'Ecosystem',
+    Svg: <img class="svg_icon" src={'/img/front_icons/hopr-ecosystem.svg'}/>,
+    description: (
+      <>
+        Broader stuff built on top of HOPR.
+      </>
+    ),
+        docName: ('#'),
+  },
+{
     title: 'FAQ',
-    Svg: <img class="svg_icon" src={'/img/front_icons/ship.svg'}/>,
+    Svg: <img class="svg_icon" src={'/img/front_icons/hopr-faqs.svg'}/>,
     description: (
       <>
         Frequently asked questions related to HOPR.
