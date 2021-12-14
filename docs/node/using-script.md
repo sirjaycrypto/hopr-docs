@@ -7,7 +7,7 @@ title: Using A Script
 
 The simplest way to get started with HOPR is to run our [script](https://github.com/hoprnet/hopr-sh) to install **hoprd**. The script will install all the required dependencies, including `node.js` version `16`. If you have [`nvm`](https://github.com/nvm-sh/nvm) installed, it will use it.
 
-:::caution ATTENTION
+:::caution Warning
    Please bear in mind that at the time of writing, ``hoprd`` only has been tested in version ``16``.
 
    If you are a MacOS M1 user, please refer to the [npm guide](using-npm), this script will not work for you.
@@ -55,7 +55,7 @@ $ cd hopr-wildhorn-v2
 Type following commands into your terminal. If you have not installed the XCode Command-line utils, please install them via:
 
 ```bash
-$ xcode-select --install
+xcode-select --install
 ```
 
 Also check whether you have installed [Homebrew](https://brew.sh/) - the OSX package manager - and install it if it is not installed yet.
@@ -82,12 +82,22 @@ bash -c "$(curl -s https://raw.githubusercontent.com/hoprnet/hopr-sh/master/setu
 
 
 ### run hoprd
+```bash
+DEBUG="hopr*" npx hoprd --init --admin --identity ./hoprd-id-01 --data ./hoprd-db-01 --password='hopr-01' --apiToken='<YOUR_SECRET_TOKEN>'
 ```
-$ DEBUG="hopr*" npx hoprd --init --admin --identity ./hoprd-id-01 --data ./hoprd-db-01 --password='hopr-01' --testNoAuthentication
-```
-### add security
-```
-$ DEBUG="hopr*" npx hoprd --init --admin --identity ./hoprd-id-01 --data ./hoprd-db-01 --password='hopr-01' --apiToken='<YOU_SECRET_TOKEN>'
-```
-Please note that if `--admin` is specificed, you **must** provide an `--apiToken` which is at least 8 symbols, contains a lowercase and an uppercase letter, a number and a special symbol. This ensures the node cannot be accessed by a malicious user residing in the same network.
+:::danger Important
 
+If you want to secure your hoprd admin UI, in the command line you must use **--apiToken** tag.
+
+**<YOUR_SECRET_TOKEN\>** - Replace it with your own password (don't use "<\>").
+
+Password should contain:
+- at least 8 symbols
+- a lowercase letter
+- uppercase letter
+- a number
+- a special symbol
+
+This ensures the node cannot be accessed by a malicious user residing in the same network.
+
+:::

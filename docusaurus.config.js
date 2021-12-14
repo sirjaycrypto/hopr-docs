@@ -18,6 +18,7 @@ const config = {
   
   stylesheets: [
     "https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap",
     "https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.css",
     "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css",
   ],
@@ -66,9 +67,20 @@ const config = {
           },
          /** {to: '/blog', label: 'Blog', position: 'left'},**/
           {
-            href: 'https://github.com/hoprnet',
-            label: 'GitHub',
+            href: 'https://twitter.com/hoprnet',
+            label: 'Twitter',
             position: 'right',
+          },
+	  {
+            href: 'https://t.me/hoprnet',
+            label: 'Telegram',
+            position: 'right',
+          },
+	  {
+            href: 'https://github.com/hoprnet',
+	    label: 'GitHub',
+	    position: 'right',
+            className: 'header-github-link',
           },
         ],
       },

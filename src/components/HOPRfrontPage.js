@@ -9,24 +9,34 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const FeatureList = [
 {
-    title: 'Getting started',
+    title: 'About HOPR',
     Svg: <img class="svg_icon" src={'/img/front_icons/hopr-getting-started.svg'}/>,
     description: (
       <>
-        Latest releases, smart contracts, etc.
+        Brief explanation what is HOPR.
+      </>
+    ),
+        docName: ('about-hopr'),
+  },
+{
+    title: 'Install a hoprd node',
+    Svg: <img class="svg_icon" src={'/img/front_icons/hopr-node-setup.svg'}/>,
+    description: (
+      <>
+        Guide on how to install a hoprd node.
       </>
     ),
         docName: ('node/start-here'),
-  },
+},
 {
     title: 'Run a hoprd node',
     Svg: <img class="svg_icon" src={'/img/front_icons/hopr-node.svg'}/>,
     description: (
       <>
-        Earn HOPR tokens by relaying data.
+        Guide on how to use a hoprd node.
       </>
     ),
-	docName: ('node/start-here'),
+	docName: ('node/guide-using-a-hoprd-node'),
   },
 {
     title: 'HOPR core concepts',
@@ -36,19 +46,29 @@ const FeatureList = [
         Broader educational material for understanding HOPR
       </>
     ),
-	docName: ('#'),
+	docName: ('core/what-is-hopr'),
   },
 {       
     title: 'Staking',
     Svg: <img class="svg_icon" src={'/img/front_icons/hopr-staking.svg'}/>,
     description: (
       <>
-        How to earn money with HOPR using a node.
+        How to earn money by staking on HOPR smart contract.
+      </>
+    ),
+        docName: ('staking/how-to-stake'),
+  },
+{
+    title: 'For Developers',
+    Svg: <img class="svg_icon" src={'/img/front_icons/hopr-development.svg'}/>,
+    description: (
+      <>
+        Coming Soon.
       </>
     ),
         docName: ('#'),
   },
-{
+/*{
     title: 'Ecosystem',
     Svg: <img class="svg_icon" src={'/img/front_icons/hopr-ecosystem.svg'}/>,
     description: (
@@ -57,7 +77,7 @@ const FeatureList = [
       </>
     ),
         docName: ('#'),
-  },
+  },*/	
 {
     title: 'FAQ',
     Svg: <img class="svg_icon" src={'/img/front_icons/hopr-faqs.svg'}/>,
@@ -66,7 +86,7 @@ const FeatureList = [
         Frequently asked questions related to HOPR.
       </>
     ),
-        docName: ('#'),
+        docName: ('faq'),
   },
 ];
 
