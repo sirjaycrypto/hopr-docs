@@ -6,7 +6,7 @@ title: Start here
 # Start here
 
 
-:::caution ATTENTION
+:::caution Warning
    The HOPR client software (hoprd) is still under heavy development. Please do *not* add funds to the node that you cannot lose.
 
    For further questions, please visit our [Telegram channel](https://t.me/hoprnet)
@@ -74,9 +74,9 @@ It will exit from a session window but it will not close the session itself.
 ```
 tmux ls
 ```
-It will list all your active sessions.
+It will list all your active sessions. The output should look similar to this:
+
 ```
-Output
 0: 1 windows (created Wed Nov 24 08:26:20 2021)
 ```
 You can see that it has one session which ID is 0.
@@ -165,19 +165,19 @@ More information about screen you can read [here](https://linuxize.com/post/how-
 
 We support multiple distribution mechanisms to install a `hoprd`:
 
-### [hopr-sh (recommended)](using-script)
+**[hopr-sh (recommended)](using-script)**
 
 An automated script able to install all the dependencies on your operating system alongside `hoprd`.
 
-### [Avado](using-avado)
+**[Avado](using-avado)**
 
 An [AVADO](https://ava.do/) plug-n-play device able to install a HOPR node as a DappNode package from their store.
 
-### [NPM](using-npm)
+**[NPM](using-npm)**
 
 The popular [Node Package Manager](https://www.npmjs.com/) (npm), which requires node.js.
 
-### [Docker](using-docker)
+**[Docker](using-docker)**
 
 Using [Docker](https://www.docker.com/) you can run a `hoprd` within a container with a shared volume to store your node info.
 

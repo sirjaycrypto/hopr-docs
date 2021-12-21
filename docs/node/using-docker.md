@@ -51,15 +51,30 @@ The `wildhorn-v2` tag represents the latest community release version.
 
 You can pull the Docker image like so:
 
-```
+```bash
 docker pull gcr.io/hoprassociation/hoprd:wildhorn-v2
 ```
 
 Then start a container:
 
+```bash
+docker run --pull always -ti -v $HOME/.hoprd-db-wildhorn-v2:/app/db -p 9091:9091 -p 3000:3000 -p 8080:8080 hopr/hoprd:wildhorn-v2 --password='h0pR-w1ldhorn-v2' --init --announce --identity /app/db/.hopr-id-wildhorn-v2 --apiToken='<YOUR_SECRET_TOKEN>'
 ```
-docker run --pull always -ti -v $HOME/.hoprd-db-wildhorn-v2:/app/db -p 9091:9091 -p 3000:3000 -p 8080:8080 hopr/hoprd:wildhorn-v2 --password='h0pR-w1ldhorn-v2' --init --announce --identity /app/db/.hopr-id-wildhorn-v2 --testNoAuthentication
-```
-
 Also all ports are mapped to your local host, assuming you stick to the default port numbers.
 
+:::danger Important
+
+If you want to secure your hoprd admin UI, in the command line you must use **--apiToken** tag.
+
+**<YOUR_SECRET_TOKEN\>** - Replace it with your own password (don't use "<\>").
+
+Password should contain:
+- at least 8 symbols
+- a lowercase letter
+- uppercase letter
+- a number
+- a special symbol
+
+This ensures the node cannot be accessed by a malicious user residing in the same network.
+
+:::
