@@ -7,8 +7,6 @@ Connection metadata can be used to build up a profile of all our activities, bot
 
 That is a giant problem for privacy, but how can it be fixed? Metadata is an essential part of how the Internet works. It’s not just as simple as switching it off.
 
-In this episode, we’ll learn about the basics of anonymously routing data through networks like HOPR.
-
 ## The Paradox of Anonymous Messaging
 
 Let’s return to the envelope analogy from last episode: imagine you’re sending a message to your friend through the mail, but you don’t trust the people delivering it. How do you keep it secret? One option is to write the message in a code that only you and your friend know. Then, even if someone opens the envelope, the message inside would be nonsense to them. This is loosely equivalent to end-to-end data encryption.
