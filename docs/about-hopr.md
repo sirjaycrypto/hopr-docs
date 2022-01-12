@@ -26,7 +26,7 @@ Here, too, we are very aware of the theoretical, though by no means insignifcant
 
 HOPR is a Swiss-based project started by an experienced team of cryptographers and blockchain experts. The HOPR network is designed to provide network-level privacy both by the use of a messaging protocol that obscures metadata so that individual data packets do not reveal trackable information, and a decentralised network that is managed by its users, so that there is no danger of a controlling entity abusing its power. To compensate individuals for the work of running a node, HOPR also contains a native currency and incentivisation scheme.
 
-The details of the payment layer are complex, but at the heart of it lies our proofof-relay scheme. On a high level it can be understood as follows: Every time a node operator forwards a packet they earn the right to receive a payment. Relayers, however, only receive half the information they need to try and claim a reward when they receive the packet. They are given the other half when they have successfully forwarded the packet to the next node on the journey.
+The details of the payment layer are complex, but at the heart of it lies our proof-of-relay scheme. On a high level it can be understood as follows: Every time a node operator forwards a packet they earn the right to receive a payment. Relayers, however, only receive half the information they need to try and claim a reward when they receive the packet. They are given the other half when they have successfully forwarded the packet to the next node on the journey.
 
 ## Proof of Relay
 
@@ -41,7 +41,7 @@ This simple but extremely powerful innovation unlocks a whole world of possibili
 
 :::info
 
-For more indepth information on HOPR and it’s core concepts, as well as its governance modell and future ambitions, have a look at our [Book of HOPR](https://hoprnet.org/assets/documents/Book_of_HOPR_v1.pdf)
+For more indepth information on HOPR and its core concepts, as well as its governance modell and future ambitions, have a look at our [Book of HOPR](https://hoprnet.org/assets/documents/Book_of_HOPR_v1.pdf)
 
 :::
 
