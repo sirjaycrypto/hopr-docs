@@ -7,9 +7,9 @@ title: Frequently Asked Questions
 
 ### What is HOPR?
 
-The HOPR network is an incentivized p2p network where nodes are relay points for transferring data between users. Data is encrypted and mixed in between nodes so the only people who can decrypt the data as well as know the source and destination are the actual source and destination. Users running nodes are incentivized to perform their duties correctly as the more successful packages are routed, the better the odds are for rewards, thus incentivising nodes to operate correctly.
+The HOPR network is an incentivized p2p network where nodes are relay points for transferring data between users. Data is encrypted and mixed in between nodes, so the only people who can decrypt the data as well as know the source and destination are the actual source and destination. Users running nodes are incentivized to perform their duties correctly as the more successful packages are routed, the better the odds are for rewards, thus incentivising nodes to operate correctly.
 
-### Where can I find the yellowpaper?
+### Where can I find the yellow paper?
 
 Coming soon.
 
@@ -23,13 +23,13 @@ What makes HOPR special is that people are rewarded for helping to relay data: w
 
 ### What does HOPR help solve?
 
-At HOPR we're building a mixnet which has way superior privacy guarantees and is still incentivized and decentralized. This means you will have more decentralization and incentives than e.g. Tor but at the same time we also have much more privacy than VPNs because no single node in the HOPR network can leak your browsing history. In fact with HOPR we need only one honest relay node to deliver a packet privately.
+At HOPR we're building a mixnet which has way superior privacy guarantees and is still incentivized and decentralized. This means you will have more decentralization and incentives than e.g. Tor, but at the same time we also have much more privacy than VPNs because no single node in the HOPR network can leak your browsing history. In fact, with HOPR we need only one honest relay node to deliver a packet privately.
 
 ### Where can I find stats about HOPR? 
 
 You can find everything at [https://dune.xyz/hoprnet](https://dune.xyz/hoprnet)
 
-Is HOPR hiring?	
+### Is HOPR hiring?	
 
 Yes, We are always searching for new additions to add to our team [https://hoprnet.jobbase.io](https://hoprnet.jobbase.io)
 
@@ -41,7 +41,7 @@ You can contact us via email at <b>contact[at]hoprnet.org</b>
 
 ### What is the HOPR Protocol?
 
-The HOPR protocol allows users to run nodes which form a peer-to-peer privacy network. Data can be sent through the network without exposing the metadata — information like who sent and received the data, when it was sent, and how much and what kind of data was involved
+The HOPR protocol allows users to run nodes which form a peer-to-peer privacy network. Data can be sent through the network without exposing the metadata — information like who sent and received the data, when it was sent, and how much and what kind of data was involved.
 
 ### What does Layer 0 mean?
 
@@ -49,19 +49,19 @@ HOPR is complementary to a lot of protocols like Matrix but HOPR also provides n
 
 ### Is HOPR PoS or PoW?	
 
-HOPR is POS
+HOPR is a Proof of Stake system.
 
 ### What is Proof of Relay?	
 
-Proof of relay mechanism helps to separate out the messaging and payment layers, breaking any linkability between them. It turns out there’s a very useful overlap between what stakers expect and what mixnets need to remain anonymous
+Proof of relay mechanism helps to separate out the messaging and payment layers, breaking any linkability between them. It turns out there’s a very useful overlap between what stakers expect and what mixnets need to remain anonymous.
 
 ### What is Cover Traffic?	
 
-Cover traffic - arbitrary data which helps boost metadata privacy for everyone in the network by obscuring usage levels.
+Cover traffic describes arbitrary data which helps boost metadata privacy for everyone in the network by obscuring usage levels.
 
 ### When will HOPR launch the mainnet?	
 
-HOPR is launched on the Ethereum mainnet
+HOPR was launched on the Ethereum mainnet in 2021.
 
 ## HOPR Token Questions
 
@@ -71,7 +71,7 @@ Yes, we launched our token in early March 2021.
 
 ### Where can I buy the HOPR Token?
 
-You can buy HOPR tokens from Uniswap / Ascendex
+You can buy HOPR tokens from DEXs like Uniswap and CEXs like Ascendex.
 
 ### What is the utility of the HOPR Token?
 
@@ -81,10 +81,10 @@ You can buy HOPR tokens from Uniswap / Ascendex
 
 - Node runners can stake HOPR tokens in their nodes to be rewarded for relaying data. Node runners receive fees in HOPR for the data they help to relay, including a large number of tokens distributed in the form of cover traffic.
 
-- Finally, the HOPR token gives users voting power in the HOPR Association DAO
+- The HOPR token gives users voting power in the HOPR Association DAO
 "
 
-### What is the diference between xHOPR and HOPR?
+### What is the difference between xHOPR and HOPR?
 
 xHOPR is a bridge of the HOPR token on the xDAI network.
 
@@ -92,11 +92,15 @@ xHOPR is a bridge of the HOPR token on the xDAI network.
 
 Yes the smart contracts are audited by Chain Security.
 
+- https://chainsecurity.com/security-audit/hopr-hoprnet-token/
+
+- https://chainsecurity.com/security-audit/hopr-payment-channels/
+
 ## HOPR Staking Questions
 
 ### Can HOPR token be staked? 
 
-Yes, currently we have a staking event
+Yes, currently we're running a staking event until the end of April '22: https://stake.hoprnet.org/
 
 ### What hardware requirements are needed for running a node?
 
@@ -104,13 +108,13 @@ Yes, currently we have a staking event
 
 - OS: macOS X / Linux OS (Ubuntu 16 and greater versions, Debian 10.x)
 
-- 2GB of RAM or greater.
+- 2GB of RAM or greater
 
-- Disk space at least 1GB.
+- Disk space of at least 1GB
 
-- x64 architecture CPU (any).
+- x64 architecture CPU
 
-How to install a hoprd node, you will find [here](node/start-here).
+You'll find a tutoriall on installing a hoprd node [here](node/start-here).
 
 ### Are you rewarding node operators?
 
