@@ -3,31 +3,31 @@ id: guide-using-a-hoprd-node
 title: Guide using a hoprd node
 ---
 
-We will provide you an example, how simply you can use hoprd. Provided example is just a one scenario which you can follow. There are no strict rules how to use hoprd.
+We will provide you an example, how simply you can use hoprd. This will just be one scenario you can follow. There are no strict rules on how to use hoprd.
 
 :::caution Warning
 
-The HOPR client software (hoprd) is still under heavy development. Please do not add funds to the node that you cannot lose.
+The HOPR client software (hoprd) is still under heavy development. Please do not add funds to a node, that you are not willing to lose.
 
 :::
 
-This is a hoprd admin user interface, which is browser based. To get the access to it you have to setup and run a hoprd node, details [here](start-here). 
+This is the hoprd admin user interface, which is completely browser based. To get the access to it you have to setup and run your hoprd node, you'll find more on that [here](start-here). 
 
 Access to the admin UI: [http://localhost:3000](http://localhost:3000)
 
 ![hoprd admin user interface](/img/node/hoprd-api-token.png)
 
-(**1**) Enter the password you specified in the command.
+(**1**) Enter the password you specified in the startup command.
 
-(**2**) Fund your node (fund the address you see on admin UI, which starts with **0x...**) with xDai tokens, you will find details [here](https://www.xdaichain.com/for-users/get-xdai-tokens) and wxHOPR tokens, you will find details [here](/staking/how-to-get-hopr).
+(**2**) Fund your node (fund the address you see on admin UI, which starts with **0x...**) with xDai tokens, which you're able to get [here](https://www.xdaichain.com/for-users/get-xdai-tokens) and wxHOPR tokens, which you're able to aquire [here](/staking/how-to-get-hopr).
 
 Brief look at the admin UI:
 
 ![hoprd admin user interface](/img/node/hoprd-admin-ui.png)
 
-(**3**) You can click on the HOPR logo, to see your node connected to the list of peers.
+(**3**) You can click on the HOPR logo, to see the list of peers connected to your node.
 
-(**4**) You can type commands and execute actions.
+(**4**) In herer you can type commands and execute actions.
 
 (**5**) Executed commands will output the results here.
 
@@ -35,7 +35,7 @@ Brief look at the admin UI:
 
 :::info
 
-Note: All the addresses mentioned bellow are just for example. These addresses may no longer be working in the time you will be trying a new hoprd release.
+Note: All the addresses mentioned below are just examples. These addresses are not meant for your setup and just longer be working in the time you will be trying a new hoprd release. 
 
 :::
 
